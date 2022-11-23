@@ -24,7 +24,7 @@ CLI tool of substructure search
 
 * iwatobipen
 
-## Vesion Histry
+## Vesion History
 
 * 0.1
   * Initial Release
