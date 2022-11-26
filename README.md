@@ -15,8 +15,21 @@ CLI tool of substructure search
 
 ### Installing
 
+```
+$ gh repo clone iwatobipen/rdsss
+$ cd rdsss
+$ pip install -e .
+```
 
-### Executing program
+### Executing program / basic usage
+
+```
+# make ssslib from sdf.gz
+$ make_rdssslib <input.sdf.gz> <output.sslib.pkl>
+
+# search with ssslib from CLI
+$ run_rdsss 'SMARTS query' <output.ssslib.pkl>
+```
 
 ## Help
 
